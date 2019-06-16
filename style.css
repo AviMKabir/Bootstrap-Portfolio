@@ -17,8 +17,9 @@ color: white;
 
 .navbar {
 
+    background-image: url(https://raw.githubusercontent.com/AviMKabir/Bootstrap-Portfolio/master/assets/images/BackgroundDark.png);
 
-    background-color: rgba(0, 0, 0, 0);
+   
     border-bottom:3px solid rgba(0, 0, 0, 0.199);
     
    
@@ -48,11 +49,11 @@ color: white;
 #bioContainer {
 
     box-shadow: 5px 10px rgba(0, 0, 0, 0.199) ;
-    margin-top: 15px;
-    margin-bottom: 15px;
     min-height: fit-content;
+    margin-top: 100px;
+    margin-bottom: 100px;
     background-color: rgba(153, 211, 255, 0.13);
-
+    
     
    
 
@@ -67,3 +68,21 @@ color: white;
     
 }
 
+
+
+
+
+#portfolio1,
+#portfolio2,
+#portfolio3,
+#portfolio4,
+#portfolio5 {
+
+
+    margin-bottom: 15px;
+}
+
+
+#sticky-footer {
+    flex-shrink: none;
+  }

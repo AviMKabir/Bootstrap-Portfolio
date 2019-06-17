@@ -80,7 +80,26 @@ color: white;
 
 
     margin-bottom: 15px;
+    position: relative;
 }
+
+
+h3 {
+
+    position: absolute;
+    text-align: center;
+    top:60%;
+    left: 0 ;
+    right: 0 ;
+    color: white;
+    background-color: #92d6d381;
+    padding: 10px ;
+    
+
+
+
+}
+
 
 #submitButton {
 

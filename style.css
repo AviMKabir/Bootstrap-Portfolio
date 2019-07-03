@@ -76,12 +76,14 @@ color: white;
 #portfolio2,
 #portfolio3,
 #portfolio4,
-#portfolio5 {
+#portfolio5,
+.card {
 
 
     margin-bottom: 15px;
     position: relative;
 }
+
 
 
 h3 {

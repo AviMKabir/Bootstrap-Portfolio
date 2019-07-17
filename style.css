@@ -1,6 +1,6 @@
 hr {
 
-    border-color: rgba(255, 255, 255, 0.548);
+    border-color:  #222;
     background-color: rgba(255, 255, 255, 0.575);
     color: rgba(255, 255, 255, 0.562);
 
@@ -9,21 +9,48 @@ hr {
 
 body {
 
-background-image: url(https://raw.githubusercontent.com/AviMKabir/Bootstrap-Portfolio/master/assets/images/BackgroundDark.png);
-color: white;
+/* background-image: url(https://raw.githubusercontent.com/AviMKabir/Bootstrap-Portfolio/master/assets/images/BackgroundDark.png); */
+/* background-color: #F2F2F2; */
+background-color: rgb(255, 255, 255);
+
+
+
+}
+
+h1 {
+
+
+    font-family: 'DM Serif Text', serif;
+
+
+}
+
+p {
+
+    font-family: 'Roboto', sans-serif;
+    color:  #222222;
 
 
 }
 
 .navbar {
 
-    background-image: url(https://raw.githubusercontent.com/AviMKabir/Bootstrap-Portfolio/master/assets/images/BackgroundDark.png);
+    /* background-image: url(https://raw.githubusercontent.com/AviMKabir/Bootstrap-Portfolio/master/assets/images/BackgroundDark.png); */
 
-   
-    border-bottom:3px solid rgba(0, 0, 0, 0.199);
+    background-color: #F2F2F2;
+
+    border-bottom:3px solid rgba(255, 170, 188, 0.404);
     
    
 }
+
+.nav.navbar-nav li a {
+    color: rgba(255, 170, 188, 0.404);
+  }
+
+  .nav.navbar-nav a:hover {
+    color: rgba(255, 170, 188, 0.404);
+   }
 
 .navbar a {
 
@@ -48,11 +75,12 @@ color: white;
 
 #bioContainer {
 
-    box-shadow: 5px 10px rgba(0, 0, 0, 0.199) ;
+    box-shadow: 5px 10px rgba(255, 170, 188, 0.404);
     min-height: fit-content;
     margin-top: 100px;
     margin-bottom: 100px;
-    background-color: rgba(153, 211, 255, 0.13);
+    background-color: rgb(255, 255, 255);
+    
     
     
    
@@ -112,3 +140,4 @@ h3 {
 #sticky-footer {
     flex-shrink: none;
   }
+
